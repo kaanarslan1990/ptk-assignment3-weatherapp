@@ -1,0 +1,100 @@
+body{
+    background-image: url("./assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    min-height: 200vh;
+  }
+  /* *{
+    border: 1px solid black;
+  } */
+  .header{
+    width: 350px;
+    color:white;
+    margin : 130px  auto  0px  212px ;
+    font-size: 2.5rem;
+  }
+  
+  .card {
+    display : flex ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin : 10px  auto  auto  200px ;
+    width : 100%;
+    height: 10%;
+    min-width: 800px;
+    
+   
+  }
+  .dropbox  {
+    font-size: 1rem;
+    width:60% ;
+    
+  }
+  .option {
+    font-size: 1rem;
+    padding:1rem;
+  }
+  
+  .day {
+    text-align: center;
+    margin : 10px ;
+    background-color: rgb(194, 188, 188);
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 0px 0px 3px black;
+    
+  }
+  addform {
+    display: flex;
+    justify-content: space-between;
+    margin : 100px  auto  auto  212px ;
+    font-size: 1rem;
+    width: 75%;
+    min-width: 800px;
+    
+  
+  }
+  .addcontainer {
+    font-size: 1rem;
+    width: 18%;
+    min-width: 400px;
+  }
+  .addbtn {
+    padding: 1rem;
+    width: 30%;
+  }
+  .addinput {
+    padding: 1rem;
+    width: 50%;
+  }
+  @media screen and (max-width:1000px) {
+    .day {
+      width : 40% ;
+    }
+    .addform {
+      display: flex;
+      justify-content: center;
+    }
+    .header, .card, .addform {
+     
+    margin : 20px  auto  auto  20px ;
+    min-width: 600px;
+  
+    }
+  }
+  @media screen and (max-width:600px) {
+    .day {
+      width : 80% ;
+    }
+    .addform {
+      display: flex;
+      justify-content: center;
+    }
+    .header, .card, .addform {
+     
+    min-width: 500px;
+  
+    }
+  }
+  
