@@ -2,8 +2,8 @@ body{
     background-image: url("./assets/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
-    min-height: 200vh;
+  
+    min-height: 100vh;
   }
   /* *{
     border: 1px solid black;
@@ -17,7 +17,7 @@ body{
   
   .card {
     display : flex ;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin : 10px  auto  auto  200px ;
     width : 100%;
@@ -44,30 +44,10 @@ body{
     padding: 12px;
     box-shadow: 0px 0px 3px black;
     
-  }
-  addform {
-    display: flex;
-    justify-content: space-between;
-    margin : 100px  auto  auto  212px ;
-    font-size: 1rem;
-    width: 75%;
-    min-width: 800px;
-    
+  }  
   
-  }
-  .addcontainer {
-    font-size: 1rem;
-    width: 18%;
-    min-width: 400px;
-  }
-  .addbtn {
-    padding: 1rem;
-    width: 30%;
-  }
-  .addinput {
-    padding: 1rem;
-    width: 50%;
-  }
+  
+  
   @media screen and (max-width:1000px) {
     .day {
       width : 40% ;
@@ -76,7 +56,7 @@ body{
       display: flex;
       justify-content: center;
     }
-    .header, .card, .addform {
+    .header, .card  {
      
     margin : 20px  auto  auto  20px ;
     min-width: 600px;
@@ -87,11 +67,8 @@ body{
     .day {
       width : 80% ;
     }
-    .addform {
-      display: flex;
-      justify-content: center;
-    }
-    .header, .card, .addform {
+    
+    .header, .card {
      
     min-width: 500px;
   

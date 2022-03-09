@@ -1,7 +1,7 @@
 import React from 'react';
 import {useContext,} from "react"
 import WeatherContext from '../context/WeatherContext';
-import { locations } from '../location/Location';
+// import { locations} from '../location/Location';
 import styles from "../styles.module.css"
 
 
