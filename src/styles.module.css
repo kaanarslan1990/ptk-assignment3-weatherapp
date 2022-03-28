@@ -28,6 +28,7 @@ body{
     
    
   }
+  
   .dropbox  {
     font-size: 1rem;
     width:60% ;
@@ -47,6 +48,10 @@ body{
     box-shadow: 0px 0px 3px black;
     
   }  
+  .day:hover{
+    border: 5px solid red;
+
+  }
   
   
   
