@@ -1,7 +1,7 @@
 body{
     background-image: url("./assets/background.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
   
     min-height: 100vh;
   }
@@ -13,6 +13,8 @@ body{
     color:white;
     margin : 130px  auto  0px  212px ;
     font-size: 2.5rem;
+    display : flex ;
+    justify-content: flex-start;
   }
   
   .card {
@@ -52,10 +54,7 @@ body{
     .day {
       width : 40% ;
     }
-    .addform {
-      display: flex;
-      justify-content: center;
-    }
+    
     .header, .card  {
      
     margin : 20px  auto  auto  20px ;

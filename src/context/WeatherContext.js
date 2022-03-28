@@ -12,7 +12,7 @@ export const WeatherProvider= ({children})=>{
     
     const [loca,setLoca] = useState([])
     const [daily, setDaily] = useState([])
-    const api_key ="67294179d0226b6e2ebdf4d312ea0119" //process.env.API_KEY
+    const api_key =process.env.REACT_APP_APIKEY
     
     const url = `https://api.openweathermap.org/data/2.5/onecall?lat=${loca.slice(0,7)}&lon=${loca.slice(8,18)}&exclude=weekly&appid=${api_key}`
     
