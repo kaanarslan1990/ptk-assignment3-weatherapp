@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ptk-assignment3-weatherapp/static/css/main.9880bddd.css",
+    "main.js": "/ptk-assignment3-weatherapp/static/js/main.02ddd111.js",
+    "static/js/787.0a511adf.chunk.js": "/ptk-assignment3-weatherapp/static/js/787.0a511adf.chunk.js",
+    "static/media/background.jpg": "/ptk-assignment3-weatherapp/static/media/background.557a9309bec30e5e09e5.jpg",
+    "index.html": "/ptk-assignment3-weatherapp/index.html",
+    "main.9880bddd.css.map": "/ptk-assignment3-weatherapp/static/css/main.9880bddd.css.map",
+    "main.02ddd111.js.map": "/ptk-assignment3-weatherapp/static/js/main.02ddd111.js.map",
+    "787.0a511adf.chunk.js.map": "/ptk-assignment3-weatherapp/static/js/787.0a511adf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9880bddd.css",
+    "static/js/main.02ddd111.js"
+  ]
+}
